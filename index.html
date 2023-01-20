@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css"/>
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+</head>
+<body>
+    
+    <header>
+        <div class="header_main">
+          <div class="menu_wrapper">
+            <div class="hamburger_wrapper">
+              <i id="hamburger" class="fas fa-bars fa-2x"></i>
+            </div>
+    
+            <nav class="list_items" id="lis-items">
+              
+                <img class="logo" id="logo_mobile" src="images/logo.png" alt="logo">
+             
+              <ul id="items_list">
+                <li><a href="#profile">MY PROFILE</a></li>
+                <li><a href="#technos">TECHNOLOGIES</a></li>
+               
+                  <img class="logo" id="logo_desktop" src="images/logo.png" alt="logo">
+                
+                <li>
+                  <a href="#realisations">PROJECTS</a>
+                </li>
+                <li><a href="#contact">CONTACT</a></li>
+              </ul>
+            </nav>
+          </div>
+         
+        </div>
+      </header>
+  
+      <section class="profile" id="profile">
+        
+        <div id="profile_box">
+          <img id="profile_image" src="images/desk.jpeg" alt="" />
+        </div>
+            
+            <div class="profile_text" id="profile_box">
+                <H2>ABOUT ME</H2>
+
+           <p>
+            As a junior web developer, I have a strong foundation in HTML, and CSS, as well as JS and PHP basics. I am passionate about building responsive and intuitive web applications that provide a seamless user experience.
+
+            I am a quick learner and always strive to stay up-to-date on the latest web development technologies and trends. I am a team player and enjoy collaborating with others to find solutions to complex problems.
+            
+            I am excited to continue learning and growing as a web developer, and I am confident that my skills and dedication make me a valuable asset to any team. I am eager to use my skills to help build innovative and impactful web applications.
+          </p>
+          <div class="btn">
+           
+         
+          <a href="#contact">
+            <button type="button" class="button">
+              CONTACT
+            </button>
+          </a>
+          <a class="in_btn" href="https://www.linkedin.com/in/marriet-benoit-dev-ops/?originalSubdomain=fr" alt="likedin">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a class="cv" href="CV.pdf" alt="CV">
+            <button>CV</button></a>
+         
+          </div>
+        </div>
+       
+      </section>
+  
+      <section class="technos" id="technos">
+        <div class="technos_box" id="technos_box">
+          <h2>TECHNOLOGIES</h2>
+          <H3>WHAT I HAVE LEARNED SO FAR</H3>
+         <img id="pic" src="images/html_logo.png" alt="html logo"></a>
+         <img id="pic" src="images/css_logo.png" alt="css logo"></a>
+         <img id="pic" src="images/js_logo.png" alt="javascript logo"></a>
+         <img id="pic" src="images/php_logo.png" alt="php logo"></a>
+        </div>
+      </section>
+  
+      <section class="realisations" id="realisations">
+        <div class="realisationsbox" id="realisations_box">
+          <h2>MY PROJECTS</h2>
+          <h3 class="realisation_text">A FEW SITES THAT I HAVE WORKED ON </h3>
+          <a href="https://linktr.ee/zoubeir.haffez"><img id="Linktree_pic" src="images/linktree.png" alt="photo of linktree website" /></a>
+          <a href="kome/index.html"><img id="Komewaza_pic" src="images/kome.png" alt="photo of komewaza website" /></a>
+          <a href="resto/index_resto.html"><img id="Dionestar_pic" src="images/dionestar.png" alt="photo of resto website" /></a>
+          <a href="https://kanite-naturel.com/en/home/"><img id="Kanite_pic" src="images/kanité.png" alt="photo of kanite website" /></a>
+        </div>
+      </section>
+  
+      <footer class="contact" id="contact">
+          
+          <a class="in_end" href="https://www.linkedin.com/in/marriet-benoit-dev-ops/?originalSubdomain=fr" alt="likedin"> <i class="fab fa-linkedin-in"></i><br> Marriet Benoit</a>
+         <a href="https://www.google.com/search?q=Saintes&sxsrf=ALiCzsb0hf8ob4T2bQ0u4t060uwwxZ2G7Q%3A1672911899149&ei=G5y2Y7_gCIWZkdUPnqqfgAk&ved=0ahUKEwj_2fS7krD8AhWFTKQEHR7VB5AQ4dUDCA8&uact=5&oq=Saintes&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzILCC4QgwEQsQMQgAQyCggAEIAEEIcCEBQyBQgAEIAEMgsILhCABBDHARCvATIFCAAQgAQyBQguEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoKCAAQRxDWBBCwAzoHCAAQsAMQQzoECCMQJzoQCAAQgAQQhwIQsQMQgwEQFDoLCAAQgAQQsQMQgwE6CAgAEIAEEMsBOg4IABCABBCxAxCDARDJAzoRCC4QgAQQsQMQgwEQxwEQ0QM6CggAELEDEIMBEEM6CAguELEDEIMBOgcIIxDqAhAnOgwIABDqAhC0AhBDGAE6CAgAELEDEIMBOggIABCABBCxAzoECC4QQzoECAAQQzoHCC4Q1AIQQzoOCC4QgAQQsQMQxwEQ0QM6CgguEMcBENEDEEM6CAguEIAEENQCOg4ILhCABBCxAxCDARDUAjoLCC4QgAQQsQMQgwE6DQguELEDEIMBENQCEEM6CgguELEDEIMBEEM6BwguEIAEEA06DQguEIAEELEDEIMBEA06CgguENQCEIAEEA1KBAhBGABKBAhGGAFQ8gVYn0RgykpoBHABeACAAUuIAYEJkgECMTmYAQCgAQGwARHIAQrAAQHaAQYIARABGAE&sclient=gws-wiz-serp#" <i class="fas fa-map-marker"></i><br> Saintes</a>
+          <a href="tel:06 46 30 24 35"><i class="fas fa-phone"></i><br>06 46 30 24 35</a>
+          <a href="mailto:benoitmarriet@gmail.com"><i class="fas fa-envelope-square"></i><br>Benoitmarriet@gmail.com</a>
+    </footer>
+
+    <script type="text/javascript">
+
+      $(document).ready(function () {
+
+          $('#hamburger').on('click', function () {
+              if ($('#items_list').css('display') == 'none') {
+                  $('#items_list').css('display', 'block');
+                  $('#items_list').css('display', 'flex');
+              }
+              else {
+                  $('#items_list').css('display', 'none');
+              }
+          });
+
+      });
+      </script>
+
+      
+      
+</body>
+</html>
